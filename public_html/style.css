@@ -1,0 +1,13 @@
+/********* Impotando fonts ********/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/********* Padrão de todas as páginas *********/
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}

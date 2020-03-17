@@ -1,0 +1,89 @@
+<!-- Tags não visuais -->
+<span></span>  (criar uma excessão)
+
+CSS1 - 1996
+CSS2 - 1998
+CSS3 - atual
+
+*** O CSS permite desenvolver um estilo de diversas formas
+
+Super DICA !!!
+Usar classe (reutilizar o código)
+Pensar sempre na criação de uma classe para alto índice de reutilização
+
+Sintaxe:
+seletor {propriedade: valor;}
+
+seletor:
+<tag>
+#id
+.Class
+
+seletor {
+  propriedade1: valor;
+  propriedade2: valor;
+}
+
+/* comentários */
+
+*** decorar o box model
+
+Existem 3 formas de usar o CSS:
+
+1ª) CSS inline (PRIORIDADE ABSOLUTA)
+2ª) CSS dentro do <head></head> (Página)
+3ª) Documento externo (RECOMENDADO)
+
+________________________________________________________
+<a href=""> </a>  
+(cria um link que é aberto na mesma aba)
+
+<a href="" target="_blank> </a>   
+(cria um link que é aberto em outra aba)
+
+***Dica SEO Usar target="_blank" para linkar sites externos
+
+
+Padrão RGB
+Fundo preto:
+Vermelho
+Verde
+Azul
+
+Fundo branco:
+Magenta
+Azul
+Amarelo
+
+/* a linha abaixo faz o link do css com a página html */
+link rel="stylesheet" href="style.css"
+
+Dica VS Code: 
+link:css
+
+_________________________________________________________
+Atividades:
+Produção de conteúdo para o site
+- Imagens de background (reolução mínima de 1280px)
+https://pixabay.com/pt/
+- Texto
+- 1 vídeo
+- 1 mp3
+_________________________________________________________
+Dica:
+https://www.youtube.com/playlist?list=PLbEOwbQR9lqyuy7U1YjGgBv0x2Hzuw569
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
