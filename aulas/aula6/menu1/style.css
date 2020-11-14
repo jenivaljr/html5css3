@@ -10,7 +10,6 @@ body {
 }
 
 .Mobile {
-    text-decoration: none;
     font-size: 2em;
     float: right;
     cursor: pointer; /* coursor forma de mão*/
@@ -47,4 +46,36 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #00bcff;
+    transition: all 0.5s;
+}
+
+/* Tratamento responsivo */
+/* O bloco a baixo modifica o CSS para resoluções até 576px */
+@media (max-width: 576px) {
+    .Mobile {
+        display: block;
+    }
+
+    nav {
+        background-color: #ffffff;
+    }
+
+    nav ul {
+        background-color: #343538;
+        width: 100%;
+        height: 100vh; /* alura total da tela do despositiov */
+        position: fixed;
+        top: 50px;
+        left: -100%;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    /* O código a baixo se refere a seleção do chekbox */
+    #check:checked ~ ul{
+        left: 0;
+    }
 }
