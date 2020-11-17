@@ -1,13 +1,67 @@
 /********* Impotando fonts ********/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-/********* Padrão de todas as páginas *********/
+/* Padronização dos navegadores */
 *{
     padding: 0;
     border: 0;
     margin: 0;
 }
 
+/* smarthphone portait */
+
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: #ffff00;
+    height: 80px;
+    border-bottom: 2px solid #a9a9a9;
+}
+
+#logo {
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+
+#logo img {
+    width: 50%;
+    height: 50%;
+}
+
+footer {
+    background-color: #343538;
+    color: #d3d3d3;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    font-size: 0.875em;
+}
+
+/** Media quaries **/
+/* smartphone landscape */
+@media (min-width: 576px) {
+    
+}
+
+/* Tablet portrait */
+@media (min-width: 768px) {
+    footer {
+        font-size: 1em;
+    }
+    
+}
+
+/* Tablet landscape ou desktop antigo */
+@media (min-width: 992px) {
+  
+}
+
+/* Notebook ou Desktop */
+@media (min-width: 1200px) {
+    footer {
+        padding: 40px 0px 40px 0px;
+    }
+   
 }

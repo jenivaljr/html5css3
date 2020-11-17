@@ -1,0 +1,38 @@
+/* smarthphone portrait */
+body {
+    background-color: #1e90ff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries */
+/* Smartphone Landscape */
+@media (min-width: 576px) {
+    body {
+    background-color: #c0c0c0;
+    }
+}
+
+/* Tablet portrait */
+@media (min-width: 768px) {
+    body {
+    background-color: #ffe600;
+    }
+}
+
+/* Tablet landscape ou desktop antigo */
+@media (min-width: 992px) {
+    body {
+    background-color: #ff5e00;
+    }
+}
+
+/* Notebook ou Desktop */
+@media (min-width: 1200px) {
+    body {
+    background-color: #ff0000;
+    }
+}
