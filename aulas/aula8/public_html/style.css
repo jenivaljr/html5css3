@@ -1,16 +1,17 @@
-/********* Impotando fonts ********/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/********* Importando fontes **********/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 /* Padronização dos navegadores */
-*{
+* {
     padding: 0;
     border: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-/* smarthphone portait */
-/*Layout */
-body{
+/* smartphone portrait */
+/* Layout */
+body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
 }
@@ -20,9 +21,8 @@ img {
     height: auto;
 }
 
-/* Cabeçaldo */
+/* Cabeçalho */
 header {
-    background-color: #ffffff;
     height: 80px;
     border-bottom: 2px solid #a9a9a9;
 }
@@ -33,8 +33,8 @@ header {
 }
 
 #logo img {
-    width: 200px; 
-    height: 40px;
+    width: 270px; /* 75% de 360px */
+    height: 60px; /* 75% de 80px */
 }
 
 nav {
@@ -47,14 +47,14 @@ nav {
 
 #mobile {
     font-size: 3em;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 nav ul {
     list-style: none;
-    background-color: #222222;
+    background-color: #343538;
     width: 100%;
-    right: 100vh;
+    height: 100vh;
     position: fixed;
     top: 80px;
     left: -100%;
@@ -63,7 +63,7 @@ nav ul {
 
 nav ul li {
     padding: 20px;
-    border-bottom: 1px solid #3d3d3d;
+    border-bottom: 1px solid #a9a9a9;
 }
 
 nav ul li a {
@@ -71,7 +71,7 @@ nav ul li a {
     color: #ffffff;
 }
 
-#check:checked ~ ul{
+#check:checked ~ ul {
     left: 0px;
 }
 
@@ -79,44 +79,44 @@ footer {
     background-color: #343538;
     color: #d3d3d3;
     padding: 30px 0px 30px 0px;
-    text-align: center;
+    text-align: center; /* centralização do texto */
     font-size: 0.875em;
 }
 
-/** Media quaries **/
+/*************** Media Queries ***************/
 /* smartphone landscape */
 @media (min-width: 576px) {
-    .layout {
-        max-width: 540px;
-        margin: 0 auto; /* centralizar o bloco no despostivo */
-    }
-    
+      .Layout{
+          max-width: 540px;
+          margin: 0 auto; /* centralizar o bloco no dispositivo */
+      }
 }
 
-/* Tablet portrait */
+/* tablet portrait */
 @media (min-width: 768px) {
+    .Layout {
+        max-width: 720px;
+    }
+    
     footer {
         font-size: 1em;
     }
-    .layout {
-        max-width: 760px;
 }
 
-/* Tablet landscape ou desktop antigo */
+/* tablet landscape ou desktop antigo */
 @media (min-width: 992px) {
-    .layout {
+    .Layout {
         max-width: 960px;
     }
 
-    /* modificação do cabeçalho e menu */
-
+    /*modificação do cabeçalho e menu*/
     header {
         height: 100px;
     }
 
     #logo img {
-        width: 200px;
-        height: 40px;
+        width: 100%;
+        height: 100%;
     }
 
     #mobile {
@@ -138,13 +138,13 @@ footer {
     nav ul li a {
         color: #343538;
     }
+
+
 }
 
-
-/* Notebook ou Desktop */
+/* notebook ou desktop */
 @media (min-width: 1200px) {
-    footer {
+     footer {
         padding: 40px 0px 40px 0px;
-    }
-   
+     }
 }
