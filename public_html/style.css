@@ -22,7 +22,7 @@ img {
 
 /* Cabeçaldo */
 header {
-    background-color: #ffffff;
+    background-color: #1d1d1d;
     height: 80px;
     border-bottom: 2px solid #a9a9a9;
 }
@@ -33,8 +33,8 @@ header {
 }
 
 #logo img {
-    width: 200px; 
-    height: 40px;
+    width: 120px; 
+    height: 70px;
 }
 
 nav {
@@ -48,11 +48,12 @@ nav {
 #mobile {
     font-size: 3em;
     margin-right: 5px;
+    color: #fdbc00;
 }
 
 nav ul {
     list-style: none;
-    background-color: #222222;
+    background-color: #1d1d1d;
     width: 100%;
     right: 100vh;
     position: fixed;
@@ -63,7 +64,7 @@ nav ul {
 
 nav ul li {
     padding: 20px;
-    border-bottom: 1px solid #3d3d3d;
+    border-bottom: 1px solid #fdbc00;
 }
 
 nav ul li a {
@@ -75,12 +76,53 @@ nav ul li a {
     left: 0px;
 }
 
+/* Site em construção */
+#construcao {
+    text-align: center;
+    padding: 30px;
+}
 footer {
-    background-color: #343538;
-    color: #d3d3d3;
+    background-color: #dbdbdb;
+    color: #3a3a3a;
     padding: 30px 0px 30px 0px;
     text-align: center;
     font-size: 0.875em;
+}
+
+/* Contato */
+#contato {
+    padding: 30px;
+}
+
+#contato h1 {
+    margin-bottom: 25px;
+    color: #a9a9a9;
+}
+
+#contato input[type=text] {
+    width: 94%;
+    border: 1px solid #a9a9a9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#contato textarea {
+    width: 94%;
+    border: 1px solid #a9a9a9;
+    padding: 10px 10px 40px 10px;
+    border-radius: 5px;
+}
+
+#contato input[type=submit]{
+    background-color: #fdbc00;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #1d1d1d;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+    float: right;
+
 }
 
 /** Media quaries **/
@@ -99,7 +141,8 @@ footer {
         font-size: 1em;
     }
     .layout {
-        max-width: 760px;
+        max-width: 720px;
+    }
 }
 
 /* Tablet landscape ou desktop antigo */
@@ -115,8 +158,8 @@ footer {
     }
 
     #logo img {
-        width: 200px;
-        height: 40px;
+        width: 50%;
+        height: 50%;
     }
 
     #mobile {
@@ -124,7 +167,6 @@ footer {
     }
 
     nav ul {
-        background-color: #ffffff;
         position: static;
         height: auto;
         margin-top: 15px;
@@ -136,15 +178,26 @@ footer {
     }
 
     nav ul li a {
-        color: #343538;
+        color: #fdbc00;
+        
     }
 }
 
 
 /* Notebook ou Desktop */
 @media (min-width: 1200px) {
+    .Layout {
+        max-width: 1140;
+    }
+
+    /* Cabeçalho */
+    header {
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    /*rodapé */
     footer {
         padding: 40px 0px 40px 0px;
     }
-   
 }
