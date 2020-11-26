@@ -1,0 +1,222 @@
+/********* Importando fontes **********/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/**** Padronização dos navegadores ****/
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**** smartphone portrait ****/
+/* Layout */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Cabeçalho */
+header {
+    height: 80px;
+    border-bottom: 2px solid #a9a9a9;
+}
+
+#logo {
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
+
+#logo img {
+    width: 270px; /* 75% de 360px */
+    height: 60px; /* 75% de 80px */
+}
+
+nav {
+    float: right;
+}
+
+#check {
+    display: none;
+}
+
+#mobile {
+    font-size: 3em;
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #343538;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    transition: all 0.5s;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#check:checked ~ ul {
+    right: 0px;
+}
+
+/* Site em construção */
+#construcao {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+/* Formulário de contato */
+#contato{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#contato h1{
+    margin: 30px 0px 30px 0px;
+    color: #343538;
+}
+
+#contato input[type=text]{
+    width: 100%;
+    border: 1px solid #343538;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; /*arredondar os cantos*/
+}
+
+#contato textarea{
+    width: 100%;
+    border: 1px solid #343538;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px 10px 40px 10px;
+    resize: none;
+}
+
+#contato input[type=submit]{
+    background-color: #343538;
+    border: 1px solid #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    /*float: right;*/
+    /*margin-bottom: 30px;*/
+}
+
+
+/* Sobre */
+#sobre {
+    /** Atividade: Criar um estilo para a página sobre **/
+    /** Precisa ser responsivo, hospedar ao final **/
+}
+
+/* Rodapé */
+footer {
+    /*clear: both;*/   
+    background-color: #343538;
+    color: #d3d3d3;
+    padding: 30px 0px 30px 0px;
+    text-align: center; /* centralização do texto */
+    font-size: 0.875em;
+}
+
+/*************** Media Queries ***************/
+/**** smartphone landscape ****/
+@media (min-width: 576px) {
+      .Layout{
+          max-width: 540px;
+          margin: 0 auto; /* centralizar o bloco no dispositivo */
+      }
+}
+
+/**** tablet portrait ****/
+@media (min-width: 768px) {
+    .Layout {
+        max-width: 720px;
+    }
+    
+    footer {
+        font-size: 1em;
+    }
+}
+
+/**** tablet landscape ou desktop antigo ****/
+@media (min-width: 992px) {
+    .Layout {
+        max-width: 960px;
+    }
+
+    /*modificação do cabeçalho e menu*/
+    header {
+        height: 100px;
+    }
+
+    #logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    nav ul {
+        background-color: #ffffff;
+        position: static;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav ul li a {
+        color: #343538;
+    }
+
+    nav ul li a:hover {
+        color: #ee0000;
+    }
+
+    /* Formulário de contato */
+    #contato{
+        width: 60%;
+    }
+}
+
+/**** notebook ou desktop ****/
+@media (min-width: 1200px) {
+    .Layout {
+        max-width: 1140px;
+    }
+
+    /* Cabeçalho */
+    header {
+        height: 120px;
+        padding-top: 20px;
+    }
+
+    /* rodapé */
+    footer {
+        padding: 40px 0px 40px 0px;
+    }
+}

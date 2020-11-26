@@ -1,0 +1,43 @@
+Usuário provisório: t-ht-204862
+Senha: cubqkXiT
+
+www.sp.senac.br
+login -> área do aluno
+__________________________________________
+Preparação do ambiente de desenvolvimento
+
+- Editor de código (VSCode)
+- Navegadores (google, firefox, safari, etc)
+- GITHUB
+___________________________________________
+Introdução ao GIT/GITHUB
+https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj
+
+___________________________________________
+Introdução ao HTML
+http (protocolo de transferencia de texto)
+(slide da aula)
+https://pt.slideshare.net/josedeassisfilho
+
+index.html -> ponto de partida (início)
+<!doctype html> <!-- indica ao navegador para usar o HTML5 -->
+
+<!-- --> (comentários em htm)
+<tag></tag>
+_________________________________________
+Validação do código:
+https://validator.w3.org/
+_________________________________________
+Acessibilidade:
+https://www.youtube.com/watch?v=20SHvU2PKsM
+https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA
+_________________________________________
+Dicas SEO
+1) Prioridades para deixar o site em 1º lugar
+- dominio
+- título
+- meta tag description
+- subtítulos <h1> <h2> <h3> <h4> <h5> <h6>
+- <p>
+- atributo alt das imagens (SEO + Acessibilidade)
+- velocidade

@@ -1,0 +1,46 @@
+Introdução ao GIT
+Comandos básicos:
+
+Passo 1: Configurações iniciais
+git config --global user.name "seu nome"
+git config --global user.email "seu email"
+
+Passo 2: Clonar um repositório
+git clone (link do repositório)
+
+Passo 3: Administrando o repositório local
+git status (verificar o status do repositório)
+git add .  (adicionar o conteúdo do projeto no "container")
+git commit -m "descrição" (documenta e armazena o container)
+
+Passo 4: Sincronizar as mudanção com o GITHUB
+git push
+
+__________________________________________________
+Dicas VSCode
+html:5  (cria um template básico)
+<alt><shift><f>  (identação (alinhamento) do código)
+ul>li*3 (cria uma lista com 3 tópicos)
+___________________________________________________
+
+Desenvolvimento de um site:
+
+Passo 1: Conteúdo
+A experiência do usuário começa no conteúdo.
+Conteúdo não é sinônimo de texto e imagem.
+
+Passo 2: Objetivo do site
+
+Passo 3: Palavras chaves (conteúdo)
+google trends
+
+
+
+
+
+
+
+
+
+
+

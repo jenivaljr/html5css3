@@ -1,0 +1,21 @@
+Estudo do float
+float: left;
+float: right;
+
+/* O float desloca o elemento uma camada (eixo z)
+   os demais elementos ocupam o espaço do elemento
+   deslocado
+*/
+clear: both; /*empurra o elmento abaixo dos floats*/
+______________________________________________________
+Propriedade display: ("elemento")
+
+display: in-line block("exibir o elemento na horizontal")
+display: block ("exibir o elemento na vertical")
+display: none ("não exibe o elemento")
+display: flex ("layout")
+
+
+Dicas: 
+Material de estudo:
+https://www.w3schools.com/

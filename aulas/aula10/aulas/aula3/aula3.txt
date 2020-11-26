@@ -1,0 +1,38 @@
+Desenvolvimento de um site:
+
+Passo 4: Definir a identidade visual e layout
+- Logotipo
+- Desenho
+- Wireframe (IMPORTANTE!)
+
+_____________________________________________
+Tags não visuais (layout)
+<div></div> (divisão ou seção genérica de conteúdo)
+*** A <div> não usa semântica
+
+<header></header> (cabeçalho)
+<nav></nav> (menu)
+<main></main> (conteúdo principal) *** Só 1 por página
+<section></section> agrupamento de conteúdo relacionado
+<article></article> artigo, comentário, widget, gadget
+<aside></aside> (side bar)
+<footer></footer> (rodapé)
+
+_____________________________________________
+Identificando <tags>
+
+id  (não reutilizável)
+
+classe   (reutilizável)
+
+
+____________________________________________
+<img src= "imagem" alt="Descrição da imagem">
+<a href=""></a>  (link)
+_____________________________________________
+Domínio:
+
+Brasil: registro.br
+Consulta do responsável: 
+https://registro.br/tecnologia/ferramentas/whois/?search=
+EUA (.com): https://br.godaddy.com/
